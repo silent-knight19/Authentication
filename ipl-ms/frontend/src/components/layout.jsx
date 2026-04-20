@@ -4,14 +4,16 @@ import { useAuth } from "../context/auth-context.jsx";
 import {
   Home,
   Shield,
+  Users,
   LogOut,
   LayoutDashboard,
 } from "lucide-react";
 
-// Navigation items - Dashboard and Teams enabled
+// Navigation items - Dashboard, Teams and Players enabled
 const navItems = [
   { path: "/", label: "Dashboard", icon: LayoutDashboard },
   { path: "/teams", label: "Teams", icon: Shield },
+  { path: "/players", label: "Players", icon: Users },
 ];
 
 export default function Layout({ children }) {
@@ -31,17 +33,19 @@ export default function Layout({ children }) {
 
   return (
     <div style={{ 
-      minHeight: "100vh", 
+      height: "100vh", 
       background: "linear-gradient(135deg, #050505 0%, #0a0a0f 100%)",
       backgroundAttachment: "fixed",
       display: "flex",
-      color: "#fff"
+      color: "#fff",
+      overflow: "hidden"
     }}>
       {/* Sidebar */}
       <aside
         style={{
           position: "relative",
           width: "18rem",
+          height: "100vh",
           flexShrink: 0,
           background: "rgba(10, 10, 15, 0.7)",
           backdropFilter: "blur(20px)",
@@ -50,6 +54,7 @@ export default function Layout({ children }) {
           display: "flex",
           flexDirection: "column",
           zIndex: 50,
+          overflowY: "auto"
         }}
       >
         {/* Logo Area */}

@@ -18,7 +18,7 @@ const teamsController = {
       if (search) filters.search = search;
 
       const teams = await teamsService.getAllTeams(filters);
-      return ApiResponse.ok(res, "Teams fetched successfully", { teams, count: teams.length });
+      res.status(200).json(ApiResponse.ok("Teams fetched successfully", { teams, count: teams.length }));
     } catch (error) {
       next(error);
     }
@@ -31,7 +31,7 @@ const teamsController = {
     try {
       const { id } = req.params;
       const team = await teamsService.getTeamById(id);
-      return ApiResponse.ok(res, "Team fetched successfully", { team });
+      res.status(200).json(ApiResponse.ok("Team fetched successfully", { team }));
     } catch (error) {
       next(error);
     }
@@ -44,7 +44,7 @@ const teamsController = {
     try {
       const { id } = req.params;
       const seasons = await teamsService.getTeamSeasonHistory(id);
-      return ApiResponse.ok(res, "Team seasons fetched successfully", { seasons });
+      res.status(200).json(ApiResponse.ok("Team seasons fetched successfully", { seasons }));
     } catch (error) {
       next(error);
     }
@@ -57,7 +57,7 @@ const teamsController = {
     try {
       const { id } = req.params;
       const stats = await teamsService.getTeamStats(id);
-      return ApiResponse.ok(res, "Team stats fetched successfully", { stats });
+      res.status(200).json(ApiResponse.ok("Team stats fetched successfully", { stats }));
     } catch (error) {
       next(error);
     }
@@ -70,7 +70,7 @@ const teamsController = {
     try {
       const { id } = req.params;
       const rivalries = await teamsService.getTeamRivalries(id);
-      return ApiResponse.ok(res, "Team rivalries fetched successfully", { rivalries });
+      res.status(200).json(ApiResponse.ok("Team rivalries fetched successfully", { rivalries }));
     } catch (error) {
       next(error);
     }
@@ -82,7 +82,7 @@ const teamsController = {
   async createTeam(req, res, next) {
     try {
       const team = await teamsService.createTeam(req.body);
-      return ApiResponse.created(res, "Team created successfully", { team });
+      res.status(201).json(ApiResponse.created("Team created successfully", { team }));
     } catch (error) {
       next(error);
     }
@@ -95,7 +95,7 @@ const teamsController = {
     try {
       const { id } = req.params;
       const team = await teamsService.updateTeam(id, req.body);
-      return ApiResponse.ok(res, "Team updated successfully", { team });
+      res.status(200).json(ApiResponse.ok("Team updated successfully", { team }));
     } catch (error) {
       next(error);
     }
@@ -108,7 +108,7 @@ const teamsController = {
     try {
       const { id } = req.params;
       await teamsService.deleteTeam(id);
-      return ApiResponse.ok(res, "Team deleted successfully");
+      res.status(200).json(ApiResponse.ok("Team deleted successfully"));
     } catch (error) {
       next(error);
     }
@@ -120,7 +120,7 @@ const teamsController = {
   async getActiveTeams(req, res, next) {
     try {
       const teams = await teamsService.getActiveTeams();
-      return ApiResponse.ok(res, "Active teams fetched successfully", { teams });
+      res.status(200).json(ApiResponse.ok("Active teams fetched successfully", { teams }));
     } catch (error) {
       next(error);
     }
@@ -132,7 +132,7 @@ const teamsController = {
   async getChampionshipHistory(req, res, next) {
     try {
       const championships = await teamsService.getChampionshipHistory();
-      return ApiResponse.ok(res, "Championship history fetched successfully", { championships });
+      res.status(200).json(ApiResponse.ok("Championship history fetched successfully", { championships }));
     } catch (error) {
       next(error);
     }

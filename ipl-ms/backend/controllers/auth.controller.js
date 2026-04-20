@@ -20,7 +20,7 @@ async function register(req, res, next) {
     res.cookie('accessToken', result.accessToken, { ...cookieOptions, maxAge: 15 * 60 * 1000 });
     res.cookie('refreshToken', result.refreshToken, { ...cookieOptions, maxAge: 7 * 24 * 60 * 60 * 1000 });
 
-    return ApiResponse.created(res, 'Account created successfully', result.user);
+    res.status(201).json(ApiResponse.created('Account created successfully', result.user));
   } catch (error) {
     next(error);
   }
@@ -44,7 +44,7 @@ async function login(req, res, next) {
     res.cookie('accessToken', result.accessToken, { ...cookieOptions, maxAge: 15 * 60 * 1000 });
     res.cookie('refreshToken', result.refreshToken, { ...cookieOptions, maxAge: 7 * 24 * 60 * 60 * 1000 });
 
-    return ApiResponse.ok(res, 'Logged in successfully', result.user);
+    res.status(200).json(ApiResponse.ok('Logged in successfully', result.user));
   } catch (error) {
     next(error);
   }
@@ -83,7 +83,7 @@ async function refreshToken(req, res, next) {
     res.cookie('accessToken', result.accessToken, { ...cookieOptions, maxAge: 15 * 60 * 1000 });
     res.cookie('refreshToken', result.refreshToken, { ...cookieOptions, maxAge: 7 * 24 * 60 * 60 * 1000 });
 
-    return ApiResponse.ok(res, 'Token refreshed successfully', result.user);
+    res.status(200).json(ApiResponse.ok('Token refreshed successfully', result.user));
   } catch (error) {
     next(error);
   }
@@ -100,7 +100,7 @@ async function logout(req, res, next) {
     res.clearCookie('accessToken', cookieOptions);
     res.clearCookie('refreshToken', cookieOptions);
 
-    return ApiResponse.ok(res, 'Logged out successfully');
+    res.status(200).json(ApiResponse.ok('Logged out successfully'));
   } catch (error) {
     next(error);
   }
@@ -111,7 +111,7 @@ async function logout(req, res, next) {
  */
 async function getMe(req, res, next) {
   try {
-    return ApiResponse.ok(res, 'User fetched successfully', req.user);
+    res.status(200).json(ApiResponse.ok('User fetched successfully', req.user));
   } catch (error) {
     next(error);
   }

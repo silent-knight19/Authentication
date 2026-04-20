@@ -2,7 +2,7 @@
  * Standardized API response helper
  */
 class ApiResponse {
-  static success(res, message, data = null, statusCode = 200) {
+  static success(message, data = null) {
     const response = {
       success: true,
       message,
@@ -11,18 +11,18 @@ class ApiResponse {
     if (data !== null) {
       response.data = data;
     }
-    return res.status(statusCode).json(response);
+    return response;
   }
 
-  static ok(res, message, data) {
-    return this.success(res, message, data, 200);
+  static ok(message, data) {
+    return this.success(message, data);
   }
 
-  static created(res, message, data) {
-    return this.success(res, message, data, 201);
+  static created(message, data) {
+    return this.success(message, data);
   }
 
-  static error(res, message, statusCode = 500, errors = null) {
+  static error(message, errors = null) {
     const response = {
       success: false,
       message,
@@ -31,7 +31,7 @@ class ApiResponse {
     if (errors !== null) {
       response.errors = errors;
     }
-    return res.status(statusCode).json(response);
+    return response;
   }
 }
 

@@ -41,18 +41,26 @@ export default function Dashboard() {
       tag: "CORE"
     },
     {
+      path: "/players",
+      label: "Player Database",
+      description: "Browse 100+ active IPL player profiles with career stats, records, and season-by-season performance.",
+      icon: Users,
+      color: "#3b82f6",
+      tag: "PLAYERS"
+    },
+    {
       path: "/teams",
       label: "Performance Metrics",
       description: "Analyze season-by-season performance data and individual player milestones.",
       icon: Activity,
-      color: "#3b82f6",
+      color: "#a855f7",
       tag: "STATS"
     }
   ];
 
   const quickStats = [
     { label: "Total Franchises", value: 14, color: "#00ED64", icon: Shield },
-    { label: "Active Teams", value: 10, color: "#3b82f6", icon: Users },
+    { label: "Active Players", value: 100, color: "#3b82f6", icon: Users },
     { label: "IPL Champions", value: 17, color: "#fbbf24", icon: Trophy },
   ];
 

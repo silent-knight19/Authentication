@@ -9,6 +9,7 @@ import OwnersPage from "./pages/owners";
 import TeamsPage from "./pages/teams";
 import TeamDetailPage from "./pages/team-detail.jsx";
 import PlayersPage from "./pages/players";
+import PlayerDetailPage from "./pages/player-detail.jsx";
 import SponsorsPage from "./pages/sponsors";
 import BroadcastersPage from "./pages/broadcasters";
 import TeamSponsorsPage from "./pages/team-sponsors";
@@ -35,6 +36,7 @@ function App() {
                   <Route path="/teams" element={<TeamsPage />} />
                   <Route path="/teams/:id" element={<TeamDetailPage />} />
                   <Route path="/players" element={<PlayersPage />} />
+                  <Route path="/players/:id" element={<PlayerDetailPage />} />
                   <Route path="/sponsors" element={<SponsorsPage />} />
                   <Route path="/broadcasters" element={<BroadcastersPage />} />
                   <Route path="/team-sponsors" element={<TeamSponsorsPage />} />

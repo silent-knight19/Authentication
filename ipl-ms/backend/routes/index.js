@@ -8,6 +8,7 @@ import sponsorRoutes from './sponsor.routes.js';
 import broadcasterRoutes from './broadcaster.routes.js';
 import teamSponsorRoutes from './team-sponsor.routes.js';
 import teamBroadcasterRoutes from './team-broadcaster.routes.js';
+import playersDetailRoutes from './players-detail.routes.js';
 
 const router = Router();
 
@@ -16,6 +17,7 @@ router.use('/owners', ownerRoutes);
 router.use('/teams', teamRoutes);
 router.use('/teams-detail', teamDetailRoutes);
 router.use('/players', playerRoutes);
+router.use('/players-detail', playersDetailRoutes);
 router.use('/sponsors', sponsorRoutes);
 router.use('/broadcasters', broadcasterRoutes);
 router.use('/team-sponsors', teamSponsorRoutes);

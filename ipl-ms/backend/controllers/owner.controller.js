@@ -3,27 +3,27 @@ import ApiResponse from "../utils/api-response.js";
 
 const createOwner = async (req, res) => {
   const owner = await ownerService.createOwner(req.body);
-  ApiResponse.created(res, "Owner created successfully", owner);
+  res.status(201).json(ApiResponse.created("Owner created successfully", owner));
 };
 
 const getAllOwners = async (req, res) => {
   const owners = await ownerService.getAllOwners();
-  ApiResponse.ok(res, "Owners fetched successfully", owners);
+  res.status(200).json(ApiResponse.ok("Owners fetched successfully", owners));
 };
 
 const getOwnerById = async (req, res) => {
   const owner = await ownerService.getOwnerById(req.params.id);
-  ApiResponse.ok(res, "Owner fetched successfully", owner);
+  res.status(200).json(ApiResponse.ok("Owner fetched successfully", owner));
 };
 
 const updateOwner = async (req, res) => {
   const updatedOwner = await ownerService.updateOwner(req.params.id, req.body);
-  ApiResponse.ok(res, "owner updated successfully", updatedOwner);
+  res.status(200).json(ApiResponse.ok("owner updated successfully", updatedOwner));
 };
 
 const deleteOwner = async (req, res) => {
   await ownerService.deleteOwner(req.params.id);
-  ApiResponse.ok(res, "owner deleted successfully");
+  res.status(200).json(ApiResponse.ok("owner deleted successfully"));
 };
 
 export { createOwner, getAllOwners, getOwnerById, updateOwner, deleteOwner };

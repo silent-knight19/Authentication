@@ -1,5 +1,4 @@
-// Load environment variables FIRST — before any other import
-// Load environment variables FIRST — before any other import
+
 import '../config/env.js';
 
 import express from 'express';

@@ -3,27 +3,27 @@ import ApiResponse from "../utils/api-response.js";
 
 const createSponsor = async (req, res) => {
   const sponsor = await sponsorService.createSponsor(req.body);
-  ApiResponse.created(res, "Sponsor created successfully", sponsor);
+  res.status(201).json(ApiResponse.created("Sponsor created successfully", sponsor));
 };
 
 const getAllSponsors = async (req, res) => {
   const sponsors = await sponsorService.getAllSponsors();
-  ApiResponse.ok(res, "Sponsors fetched successfully", sponsors);
+  res.status(200).json(ApiResponse.ok("Sponsors fetched successfully", sponsors));
 };
 
 const getSponsorById = async (req, res) => {
   const sponsor = await sponsorService.getSponsorById(req.params.id);
-  ApiResponse.ok(res, "Sponsor fetched successfully", sponsor);
+  res.status(200).json(ApiResponse.ok("Sponsor fetched successfully", sponsor));
 };
 
 const updateSponsor = async (req, res) => {
   const updatedSponsor = await sponsorService.updateSponsor(req.params.id, req.body);
-  ApiResponse.ok(res, "Sponsor updated successfully", updatedSponsor);
+  res.status(200).json(ApiResponse.ok("Sponsor updated successfully", updatedSponsor));
 };
 
 const deleteSponsor = async (req, res) => {
   await sponsorService.deleteSponsor(req.params.id);
-  ApiResponse.ok(res, "Sponsor deleted successfully");
+  res.status(200).json(ApiResponse.ok("Sponsor deleted successfully"));
 };
 
 export { createSponsor, getAllSponsors, getSponsorById, updateSponsor, deleteSponsor };
