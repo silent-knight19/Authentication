@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Trophy, Users, Calendar, MapPin, Activity, Award, Medal, Target, TrendingUp } from "lucide-react";
 import TeamLogo from "../components/team-logo.jsx";
 import "../styles/players.css";
+import "../styles/player-detail.css";
 
 const TABS = [
   { id: "overview", label: "Overview", icon: Activity },

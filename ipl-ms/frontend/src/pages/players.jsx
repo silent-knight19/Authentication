@@ -211,9 +211,10 @@ function PlayerCard({ player }) {
     nationality,
     age,
     awards,
+    photoUrl,
   } = player;
 
-  // Global-ish team colors
+  // Global team colors
   const teamColors = {
     CSK: ["#FCBF1E", "#1E3A8A"],
     MI: ["#004BA0", "#D1AB3E"],
@@ -231,8 +232,12 @@ function PlayerCard({ player }) {
   const primaryColor = colors[0];
   const secondaryColor = colors[1];
 
-  // Logic for Avatar
-  const avatarUrl = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(shortName || name)}&backgroundColor=${encodeURIComponent(primaryColor.replace('#', ''))}&textColor=ffffff&size=128`;
+  // DiceBear avatar fallback
+  const fallbackUrl = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(shortName || name)}&backgroundColor=${encodeURIComponent(primaryColor.replace('#', ''))}&textColor=ffffff&size=128`;
+
+  // Use backend photoUrl or fallback to avatar
+  const displayPhoto = photoUrl || fallbackUrl;
+  const hasRealPhoto = !!photoUrl;
 
   // Role ID for CSS
   const getRoleBadgeClass = (role) => {
@@ -258,9 +263,10 @@ function PlayerCard({ player }) {
           <div className="player-card__photo-container">
             <div className="player-card__photo-glow" />
             <img 
-              src={avatarUrl} 
+              src={displayPhoto} 
               alt={name} 
-              className="player-card__photo-img"
+              className={`player-card__photo-img ${hasRealPhoto ? 'player-card__photo-img--real' : ''}`}
+              onError={(e) => { e.target.src = fallbackUrl; }}
             />
           </div>
           <div className="player-card__title-area">

@@ -6,6 +6,10 @@
  */
 
  :root {
+  /* Typography */
+  --font-header: 'Sora', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
   /* Core Accents */
   --accent-base: #00ED64;
   --accent-glow: rgba(0, 237, 100, 0.4);
@@ -42,13 +46,14 @@
   background-attachment: fixed;
   color: var(--text-main);
   padding: 3rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
 }
 
 /* ===== Typography ===== */
 h1, h2, h3, h4 {
-  font-family: 'Sora', sans-serif;
+  font-family: var(--font-header);
   letter-spacing: -0.03em;
+  font-weight: 700;
 }
 
 /* ===== Header Section ===== */
@@ -65,7 +70,7 @@ h1, h2, h3, h4 {
   top: -2rem;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'Sora', sans-serif;
+  font-family: var(--font-header);
   font-weight: 900;
   font-size: 8rem;
   opacity: 0.03;
@@ -164,7 +169,7 @@ h1, h2, h3, h4 {
   border-radius: 100px;
   padding: 0.85rem 1.5rem;
   color: var(--text-main);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
   font-size: 0.9375rem;
   backdrop-filter: blur(10px);
   cursor: pointer;
@@ -189,7 +194,7 @@ h1, h2, h3, h4 {
   border-radius: 100px;
   padding: 1rem 1.5rem 1rem 3.5rem;
   color: var(--text-main);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
   font-size: 0.9375rem;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
@@ -214,8 +219,8 @@ h1, h2, h3, h4 {
 /* ===== Players Grid ===== */
 .players-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -300,6 +305,19 @@ h1, h2, h3, h4 {
   position: relative;
   z-index: 1;
   background: var(--glass-bg);
+  transition: all 0.4s ease;
+}
+
+/* When a real photo is loaded (not the fallback avatar) */
+.player-card__photo-img--real {
+  object-fit: cover;
+  object-position: top center;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.player-card:hover .player-card__photo-img--real {
+  border-color: var(--player-color, var(--accent-base));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .player-card__title-area {
@@ -386,7 +404,7 @@ h1, h2, h3, h4 {
 }
 
 .stat-item__value {
-  font-family: 'Sora', sans-serif;
+  font-family: var(--font-header);
   font-size: 1.125rem;
   font-weight: 700;
   margin-bottom: 0.125rem;

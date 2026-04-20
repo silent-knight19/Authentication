@@ -194,7 +194,7 @@ const playersSeedData = [
       "Sachin Tendulkar"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/319900/319946.jpg"
   },
   {
     "name": "Ruturaj Gaikwad",
@@ -377,7 +377,7 @@ const playersSeedData = [
       "Ambati Rayudu"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/344400/344419.jpg"
   },
   {
     "name": "Ravindra Jadeja",
@@ -579,7 +579,7 @@ const playersSeedData = [
       "MS Dhoni"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202614.jpg"
   },
   {
     "name": "Shivam Dube",
@@ -767,7 +767,7 @@ const playersSeedData = [
       "MS Dhoni"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/344400/344421.jpg"
   },
   {
     "name": "Rohit Sharma",
@@ -976,7 +976,7 @@ const playersSeedData = [
       "Sachin Tendulkar"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/302300/302351.jpg"
   },
   {
     "name": "Suryakumar Yadav",
@@ -1163,7 +1163,7 @@ const playersSeedData = [
       "Rohit Sharma"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/337100/337124.jpg"
   },
   {
     "name": "Hardik Pandya",
@@ -1366,7 +1366,7 @@ const playersSeedData = [
       "Rohit Sharma"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/334700/334733.jpg"
   },
   {
     "name": "Jasprit Bumrah",
@@ -1556,7 +1556,7 @@ const playersSeedData = [
       "Shane Bond"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316581.jpg"
   },
   {
     "name": "Virat Kohli",
@@ -1762,7 +1762,7 @@ const playersSeedData = [
       "Rahul Dravid"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/289000/289001.jpg"
   },
   {
     "name": "Faf du Plessis",
@@ -1957,7 +1957,7 @@ const playersSeedData = [
       "MS Dhoni"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/289000/289083.jpg"
   },
   {
     "name": "Glenn Maxwell",
@@ -2153,7 +2153,7 @@ const playersSeedData = [
       "Virat Kohli"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232400/232461.jpg"
   },
   {
     "name": "Shreyas Iyer",
@@ -2335,7 +2335,7 @@ const playersSeedData = [
       "Ricky Ponting"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/337100/337126.jpg"
   },
   {
     "name": "Andre Russell",
@@ -2535,7 +2535,7 @@ const playersSeedData = [
       "Jacques Kallis"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/266200/266221.jpg"
   },
   {
     "name": "Sunil Narine",
@@ -2737,7 +2737,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/273900/273901.jpg"
   },
   {
     "name": "Sanju Samson",
@@ -2921,7 +2921,7 @@ const playersSeedData = [
       "Rahul Dravid"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/302300/302353.jpg"
   },
   {
     "name": "Yashasvi Jaiswal",
@@ -3106,7 +3106,7 @@ const playersSeedData = [
       "Kumar Sangakkara"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/496600/496683.jpg"
   },
   {
     "name": "Jos Buttler",
@@ -3292,7 +3292,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/286800/286887.jpg"
   },
   {
     "name": "Pat Cummins",
@@ -3477,7 +3477,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/216600/216619.jpg"
   },
   {
     "name": "Heinrich Klaasen",
@@ -3654,7 +3654,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/413200/413262.jpg"
   },
   {
     "name": "Bhuvneshwar Kumar",
@@ -3842,7 +3842,7 @@ const playersSeedData = [
       "Dale Steyn"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202607.jpg"
   },
   {
     "name": "Rishabh Pant",
@@ -4027,7 +4027,7 @@ const playersSeedData = [
       "Ricky Ponting"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/334700/334732.jpg"
   },
   {
     "name": "KL Rahul",
@@ -4213,7 +4213,7 @@ const playersSeedData = [
       "Rahul Dravid"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/302300/302354.jpg"
   },
   {
     "name": "Kuldeep Yadav",
@@ -4396,7 +4396,7 @@ const playersSeedData = [
       "Anil Kumble"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/313400/313482.jpg"
   },
   {
     "name": "Shikhar Dhawan",
@@ -4598,7 +4598,7 @@ const playersSeedData = [
       "Virender Sehwag"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202605.jpg"
   },
   {
     "name": "Arshdeep Singh",
@@ -4781,7 +4781,7 @@ const playersSeedData = [
       "Shikhar Dhawan"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/469000/469042.jpg"
   },
   {
     "name": "Nicholas Pooran",
@@ -4954,7 +4954,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/366600/366669.jpg"
   },
   {
     "name": "Shubman Gill",
@@ -5142,7 +5142,7 @@ const playersSeedData = [
       "Hardik Pandya"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/496500/496584.jpg"
   },
   {
     "name": "Rashid Khan",
@@ -5338,7 +5338,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320400/320413.jpg"
   },
   {
     "name": "David Warner",
@@ -5526,7 +5526,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232369.jpg"
   },
   {
     "name": "Yuzvendra Chahal",
@@ -5711,7 +5711,7 @@ const playersSeedData = [
       "Anil Kumble"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/292200/292235.jpg"
   },
   {
     "name": "Quinton de Kock",
@@ -5895,7 +5895,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/266200/266223.jpg"
   },
   {
     "name": "Trent Boult",
@@ -6078,7 +6078,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232370.jpg"
   },
   {
     "name": "Mitchell Starc",
@@ -6261,7 +6261,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232373.jpg"
   },
   {
     "name": "Rinku Singh",
@@ -6443,7 +6443,7 @@ const playersSeedData = [
       "Andre Russell"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/469000/469044.jpg"
   },
   {
     "name": "Tilak Varma",
@@ -6639,7 +6639,7 @@ const playersSeedData = [
       "Rohit Sharma"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/496600/496685.jpg"
   },
   {
     "name": "Sachin Tendulkar",
@@ -6837,7 +6837,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202618.jpg"
   },
   {
     "name": "Ricky Ponting",
@@ -7013,7 +7013,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202619.jpg"
   },
   {
     "name": "AB de Villiers",
@@ -7209,7 +7209,7 @@ const playersSeedData = [
     ],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/289000/289085.jpg"
   },
   {
     "name": "Chris Gayle",
@@ -7410,7 +7410,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202600.jpg"
   },
   {
     "name": "Suresh Raina",
@@ -7615,7 +7615,7 @@ const playersSeedData = [
       "MS Dhoni"
     ],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202610.jpg"
   },
   {
     "name": "Lasith Malinga",
@@ -7802,7 +7802,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202603.jpg"
   },
   {
     "name": "Shane Warne",
@@ -7985,7 +7985,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202602.jpg"
   },
   {
     "name": "Adam Gilchrist",
@@ -8167,7 +8167,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202604.jpg"
   },
   {
     "name": "Brendon McCullum",
@@ -8351,7 +8351,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232372.jpg"
   },
   {
     "name": "Virender Sehwag",
@@ -8549,7 +8549,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202608.jpg"
   },
   {
     "name": "Mahela Jayawardene",
@@ -8731,7 +8731,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202609.jpg"
   },
   {
     "name": "Rahul Dravid",
@@ -8909,7 +8909,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202606.jpg"
   },
   {
     "name": "Harbhajan Singh",
@@ -9111,7 +9111,7 @@ const playersSeedData = [
       "Anil Kumble"
     ],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202601.jpg"
   },
   {
     "name": "Anil Kumble",
@@ -9292,7 +9292,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202611.jpg"
   },
   {
     "name": "Matthew Hayden",
@@ -9474,7 +9474,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202612.jpg"
   },
   {
     "name": "Michael Hussey",
@@ -9662,7 +9662,7 @@ const playersSeedData = [
       "MS Dhoni"
     ],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232371.jpg"
   },
   {
     "name": "Robin Uthappa",
@@ -9846,7 +9846,7 @@ const playersSeedData = [
       "Gautam Gambhir"
     ],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202613.jpg"
   },
   {
     "name": "Gautam Gambhir",
@@ -10029,7 +10029,7 @@ const playersSeedData = [
     ],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202615.jpg"
   },
   {
     "name": "Dwayne Bravo",
@@ -10234,7 +10234,7 @@ const playersSeedData = [
       "MS Dhoni"
     ],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232365.jpg"
   },
   {
     "name": "Shaun Marsh",
@@ -10418,7 +10418,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232366.jpg"
   },
   {
     "name": "Yuvraj Singh",
@@ -10614,7 +10614,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202616.jpg"
   },
   {
     "name": "Shikhar Dhawan",
@@ -10800,7 +10800,7 @@ const playersSeedData = [
       "Virender Sehwag"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202605.jpg"
   },
   {
     "name": "Manish Pandey",
@@ -10980,7 +10980,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/286800/286888.jpg"
   },
   {
     "name": "Ajinkya Rahane",
@@ -11166,7 +11166,7 @@ const playersSeedData = [
       "Rahul Dravid"
     ],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/289000/289089.jpg"
   },
   {
     "name": "Kedar Jadhav",
@@ -11362,7 +11362,7 @@ const playersSeedData = [
       "MS Dhoni"
     ],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/286800/286890.jpg"
   },
   {
     "name": "Parthiv Patel",
@@ -26813,7 +26813,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232368.jpg"
   },
   {
     "name": "Ben Stokes",
@@ -27187,7 +27187,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/216600/216619.jpg"
   },
   {
     "name": "Jos Buttler",
@@ -27364,7 +27364,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/286800/286887.jpg"
   },
   {
     "name": "Jonny Bairstow",
@@ -28249,7 +28249,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/289000/289083.jpg"
   },
   {
     "name": "Quinton de Kock",
@@ -28426,7 +28426,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/266200/266223.jpg"
   },
   {
     "name": "Kagiso Rabada",
@@ -28603,7 +28603,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/366600/366669.jpg"
   },
   {
     "name": "Anrich Nortje",
@@ -29311,7 +29311,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320400/320413.jpg"
   },
   {
     "name": "Mohammad Nabi",
@@ -30373,7 +30373,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/366600/366671.jpg"
   },
   {
     "name": "Glenn Maxwell",
@@ -30550,7 +30550,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232400/232461.jpg"
   },
   {
     "name": "Matthew Wade",
@@ -32320,7 +32320,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/302300/302353.jpg"
   },
   {
     "name": "Rishabh Pant",
@@ -32497,7 +32497,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/334700/334732.jpg"
   },
   {
     "name": "KL Rahul",
@@ -32674,7 +32674,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/302300/302354.jpg"
   },
   {
     "name": "MS Dhoni",
@@ -32851,7 +32851,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/319900/319946.jpg"
   },
   {
     "name": "Dinesh Karthik",
@@ -33736,7 +33736,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202613.jpg"
   },
   {
     "name": "Ajinkya Rahane",
@@ -33913,7 +33913,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/289000/289089.jpg"
   },
   {
     "name": "Cheteshwar Pujara",
@@ -34621,7 +34621,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202605.jpg"
   },
   {
     "name": "Rohit Sharma",
@@ -34798,7 +34798,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/302300/302351.jpg"
   },
   {
     "name": "Shreyas Iyer",
@@ -34975,7 +34975,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/337100/337126.jpg"
   },
   {
     "name": "Manish Pandey",
@@ -35152,7 +35152,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/286800/286888.jpg"
   },
   {
     "name": "Kedar Jadhav",
@@ -35329,7 +35329,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/286800/286890.jpg"
   },
   {
     "name": "Stuart Binny",
@@ -35683,7 +35683,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/334700/334733.jpg"
   },
   {
     "name": "Krunal Pandya",
@@ -36214,7 +36214,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/344400/344421.jpg"
   },
   {
     "name": "Rahul Tewatia",
@@ -36745,7 +36745,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202614.jpg"
   },
   {
     "name": "Ravi Bishnoi",
@@ -37099,7 +37099,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/292200/292235.jpg"
   },
   {
     "name": "Kuldeep Yadav",
@@ -37276,7 +37276,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/313400/313482.jpg"
   },
   {
     "name": "Amit Mishra",
@@ -37630,7 +37630,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202617.jpg"
   },
   {
     "name": "Pragyan Ojha",
@@ -37984,7 +37984,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202601.jpg"
   },
   {
     "name": "Ravichandran Ashwin",
@@ -38869,7 +38869,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316581.jpg"
   },
   {
     "name": "Mohammed Shami",
@@ -39223,7 +39223,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/202600/202607.jpg"
   },
   {
     "name": "Deepak Chahar",
@@ -39931,7 +39931,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/469000/469042.jpg"
   },
   {
     "name": "Mohammed Siraj",
@@ -40108,7 +40108,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316579.jpg"
   },
   {
     "name": "Navdeep Saini",
@@ -42055,7 +42055,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "RETIRED",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/273900/273901.jpg"
   },
   {
     "name": "Andre Russell",
@@ -42232,7 +42232,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/266200/266221.jpg"
   },
   {
     "name": "Lockie Ferguson",
@@ -42763,7 +42763,7 @@ const playersSeedData = [
     "rivalries": [],
     "mentors": [],
     "status": "ACTIVE",
-    "photoUrl": null
+    "photoUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/232300/232370.jpg"
   },
   {
     "name": "Mitchell Santner",

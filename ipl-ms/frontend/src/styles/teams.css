@@ -6,6 +6,10 @@
  */
 
  :root {
+  /* Typography */
+  --font-header: 'Sora', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
   /* Core Accents */
   --accent-base: #00ED64;
   --accent-glow: rgba(0, 237, 100, 0.4);
@@ -36,12 +40,12 @@
   background-attachment: fixed;
   color: var(--text-main);
   padding: 3rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
 }
 
 /* ===== Typography ===== */
 h1, h2, h3, h4 {
-  font-family: 'Sora', sans-serif;
+  font-family: var(--font-header);
   letter-spacing: -0.03em;
 }
 
@@ -140,7 +144,7 @@ h1, h2, h3, h4 {
   border-radius: 100px;
   padding: 1rem 1.5rem 1rem 3.5rem;
   color: var(--text-main);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
   font-size: 0.9375rem;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
