@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+:root {
+  /* MongoDB Dark Theme Colors */
+  --mdb-dark: #001E2B;
+  --mdb-darker: #0A1419;
+  --mdb-card: #112733;
+  --mdb-card-hover: #1A3744;
+  --mdb-border: #3D4F58;
+  --mdb-green: #00ED64;
+  --mdb-green-hover: #00C853;
+  --mdb-green-dim: rgba(0, 237, 100, 0.1);
+  --mdb-text: #E8EDEB;
+  --mdb-text-muted: #B8C4C2;
+  --mdb-accent: #00ED64;
+  --mdb-error: #FF4B4B;
+  --mdb-error-bg: rgba(255, 75, 75, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Euclid Circular A', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: var(--mdb-dark);
+  color: var(--mdb-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--mdb-darker);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--mdb-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mdb-green);
+}
+
+/* Selection */
+::selection {
+  background: var(--mdb-green-dim);
+  color: var(--mdb-green);
+}
+
+/* Focus Styles */
+*:focus-visible {
+  outline: 2px solid var(--mdb-green);
+  outline-offset: 2px;
+}
+
+/* Input Placeholder */
+::placeholder {
+  color: var(--mdb-text-muted);
+  opacity: 0.7;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes pulse-green {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(0, 237, 100, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 4px rgba(0, 237, 100, 0);
+  }
+}
+
+.animate-pulse-green {
+  animation: pulse-green 2s infinite;
+}
